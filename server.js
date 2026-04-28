@@ -70,7 +70,10 @@ console.log(`🌍 Environment: ${isProduction ? 'PRODUCTION' : 'DEVELOPMENT'}`);
 
 const dbDir = path.dirname(dbPath);
 if (!fs.existsSync(dbDir)) {
-    fs.mkdirSync(dbDir, { recursive: true });
+    // Di Vercel, ga bisa bikin folder, skip aja
+    if (!isProduction) {
+        fs.mkdirSync(dbDir, { recursive: true });
+    }
 }
 
 function readFileDB() {
