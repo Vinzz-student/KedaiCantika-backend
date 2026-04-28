@@ -1,0 +1,209 @@
+{
+  "merchants": [
+    {
+      "email": "reynandoandrealviano@gmail.com",
+      "name": "Alpin",
+      "phoneNumber": "6281234567890",
+      "addedAt": "2026-04-14T00:00:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "email": "pembeli1@gmail.com",
+      "name": "Budi",
+      "phoneNumber": "6289876543210",
+      "lastLogin": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "email": "fevhfgdyxszw@gmail.com",
+      "name": "fevhfgdyxszw",
+      "phoneNumber": "6281515188150",
+      "lastLogin": "2026-04-26T13:09:45.598Z"
+    }
+  ],
+  "storeOpen": false,
+  "storeHours": {
+    "openHour": 9,
+    "closeHour": 21
+  },
+  "orders": [],
+  "menus": [
+    {
+      "id": "1",
+      "name": "Es Teh Manis",
+      "category": "minuman",
+      "price": 3000,
+      "image": "https://franchisebisniskost.com/wp-content/uploads/2025/02/Franchise-Es-Teh.png",
+      "available": true,
+      "hasVariants": false
+    },
+    {
+      "id": "2",
+      "name": "Es Jeruk Peras",
+      "category": "minuman",
+      "price": 4000,
+      "image": "https://dcostseafood.id/wp-content/uploads/2021/12/ES-JERUK-murni.jpg",
+      "available": true,
+      "hasVariants": false
+    },
+    {
+      "id": "3",
+      "name": "Pop Ice",
+      "category": "minuman",
+      "price": 8000,
+      "image": "https://id-test-11.slatic.net/p/b83afb8aa06ce3ba3f146e52a9dfcc43.jpg",
+      "available": true,
+      "hasVariants": true,
+      "variants": [
+        {
+          "id": "3a",
+          "name": "Pop Ice Coklat",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/8B4513/ffffff?text=Coklat&font-size=30"
+        },
+        {
+          "id": "3b",
+          "name": "Pop Ice Stroberi",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/FF69B4/ffffff?text=Stroberi&font-size=30"
+        },
+        {
+          "id": "3c",
+          "name": "Pop Ice Vanilla",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/F3E5AB/ffffff?text=Vanilla&font-size=30"
+        },
+        {
+          "id": "3d",
+          "name": "Pop Ice Taro",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/9370DB/ffffff?text=Taro&font-size=30"
+        },
+        {
+          "id": "3e",
+          "name": "Pop Ice Matcha",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/556B2F/ffffff?text=Matcha&font-size=30"
+        },
+        {
+          "id": "3f",
+          "name": "Pop Ice Durian",
+          "price": 9000,
+          "available": true,
+          "image": "https://placehold.co/400x300/FFD700/ffffff?text=Durian&font-size=30"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Mie",
+      "category": "makanan",
+      "price": 8000,
+      "image": "https://pangansari.com/blog/wp-content/uploads/2023/02/8b3c99cb-6527-4163-99f9-f6fbce370511_169.jpeg",
+      "available": true,
+      "hasVariants": true,
+      "variants": [
+        {
+          "id": "3a",
+          "name": "Pop Ice Coklat",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/8B4513/ffffff?text=Coklat&font-size=30"
+        },
+        {
+          "id": "3b",
+          "name": "Pop Ice Stroberi",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/FF69B4/ffffff?text=Stroberi&font-size=30"
+        },
+        {
+          "id": "3c",
+          "name": "Pop Ice Vanilla",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/F3E5AB/ffffff?text=Vanilla&font-size=30"
+        },
+        {
+          "id": "3d",
+          "name": "Pop Ice Taro",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/9370DB/ffffff?text=Taro&font-size=30"
+        },
+        {
+          "id": "3e",
+          "name": "Pop Ice Matcha",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/556B2F/ffffff?text=Matcha&font-size=30"
+        },
+        {
+          "id": "3f",
+          "name": "Pop Ice Durian",
+          "price": 9000,
+          "available": true,
+          "image": "https://placehold.co/400x300/FFD700/ffffff?text=Durian&font-size=30"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Pop Mie",
+      "category": "makanan",
+      "price": 8000,
+      "image": "https://i.pinimg.com/564x/b4/46/20/b44620dd6a04bc160a8e9160e578a52d.jpg",
+      "available": true,
+      "hasVariants": true,
+      "variants": [
+        {
+          "id": "3a",
+          "name": "Pop Ice Coklat",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/8B4513/ffffff?text=Coklat&font-size=30"
+        },
+        {
+          "id": "3b",
+          "name": "Pop Ice Stroberi",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/FF69B4/ffffff?text=Stroberi&font-size=30"
+        },
+        {
+          "id": "3c",
+          "name": "Pop Ice Vanilla",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/F3E5AB/ffffff?text=Vanilla&font-size=30"
+        },
+        {
+          "id": "3d",
+          "name": "Pop Ice Taro",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/9370DB/ffffff?text=Taro&font-size=30"
+        },
+        {
+          "id": "3e",
+          "name": "Pop Ice Matcha",
+          "price": 8000,
+          "available": true,
+          "image": "https://placehold.co/400x300/556B2F/ffffff?text=Matcha&font-size=30"
+        },
+        {
+          "id": "3f",
+          "name": "Pop Ice Durian",
+          "price": 9000,
+          "available": true,
+          "image": "https://placehold.co/400x300/FFD700/ffffff?text=Durian&font-size=30"
+        }
+      ]
+    }
+  ]
+}
